@@ -37,8 +37,6 @@ class HomeVC: UIViewController {
         imageView.tintColor = .white
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.isUserInteractionEnabled = true
-        let searchTap = UITapGestureRecognizer(target: self, action: #selector(searchButtonTapped))
-        imageView.addGestureRecognizer(searchTap)
         return imageView
     }()
     
@@ -125,6 +123,9 @@ class HomeVC: UIViewController {
     private func setUpUI() {
         view.backgroundColor = .black
         titleLabel.text = self.viewModel.listingGenre
+        
+        let searchTap = UITapGestureRecognizer(target: self, action: #selector(searchButtonTapped))
+        searchButton.addGestureRecognizer(searchTap)
     }
     
     @objc func searchButtonTapped(searchBarbuttonItem barButtonItem: UIBarButtonItem) {
