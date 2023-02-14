@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		4603AC2E2990C97100F73A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC2D2990C97100F73A7C /* AppDelegate.swift */; };
 		4603AC302990C97100F73A7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC2F2990C97100F73A7C /* SceneDelegate.swift */; };
-		4603AC322990C97100F73A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC312990C97100F73A7C /* ViewController.swift */; };
+		4603AC322990C97100F73A7C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC312990C97100F73A7C /* HomeVC.swift */; };
 		4603AC352990C97100F73A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4603AC332990C97100F73A7C /* Main.storyboard */; };
 		4603AC372990C97400F73A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4603AC362990C97400F73A7C /* Assets.xcassets */; };
 		4603AC3A2990C97400F73A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4603AC382990C97400F73A7C /* LaunchScreen.storyboard */; };
 		4603AC452990C97400F73A7C /* DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC442990C97400F73A7C /* DTests.swift */; };
 		4603AC4F2990C97400F73A7C /* DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC4E2990C97400F73A7C /* DUITests.swift */; };
 		4603AC512990C97400F73A7C /* DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC502990C97400F73A7C /* DUITestsLaunchTests.swift */; };
+		4603AC5E29911C5700F73A7C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC5D29911C5700F73A7C /* MovieCell.swift */; };
+		463FF8C1299A758600301480 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 463FF8C0299A757700301480 /* TitilliumWeb-Light.ttf */; };
+		46849B602996634500040564 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46849B5F2996634500040564 /* APICaller.swift */; };
+		46849B622996635400040564 /* Page1.json in Resources */ = {isa = PBXBuildFile; fileRef = 46849B612996635400040564 /* Page1.json */; };
+		46849B642996644100040564 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46849B632996644100040564 /* Movie.swift */; };
+		46849B66299681EC00040564 /* ListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46849B65299681EC00040564 /* ListingViewModel.swift */; };
+		46849B682996974E00040564 /* Page3.json in Resources */ = {isa = PBXBuildFile; fileRef = 46849B672996974E00040564 /* Page3.json */; };
+		46849B6A2996975A00040564 /* Page2.json in Resources */ = {isa = PBXBuildFile; fileRef = 46849B692996975A00040564 /* Page2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		4603AC2A2990C97100F73A7C /* D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4603AC2D2990C97100F73A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4603AC2F2990C97100F73A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4603AC312990C97100F73A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4603AC312990C97100F73A7C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4603AC342990C97100F73A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4603AC362990C97400F73A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4603AC392990C97400F73A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,20 @@
 		4603AC4A2990C97400F73A7C /* DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4603AC4E2990C97400F73A7C /* DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUITests.swift; sourceTree = "<group>"; };
 		4603AC502990C97400F73A7C /* DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4603AC5D29911C5700F73A7C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		463FF878299A443400301480 /* Page2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Page2.json; path = "../../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page2.json"; sourceTree = "<group>"; };
+		463FF879299A443400301480 /* Page1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Page1.json; path = "../../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page1.json"; sourceTree = "<group>"; };
+		463FF87A299A443400301480 /* Page3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Page3.json; path = "../../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page3.json"; sourceTree = "<group>"; };
+		463FF87B299A445D00301480 /* Page1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Page1.json; sourceTree = "<group>"; };
+		463FF87C299A445D00301480 /* Page3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Page3.json; sourceTree = "<group>"; };
+		463FF87D299A445D00301480 /* Page2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Page2.json; sourceTree = "<group>"; };
+		463FF8C0299A757700301480 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Light.ttf"; path = "../../../../Downloads/Titillium_Web/TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		46849B5F2996634500040564 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		46849B612996635400040564 /* Page1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Page1.json; path = "../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page1.json"; sourceTree = "<group>"; };
+		46849B632996644100040564 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		46849B65299681EC00040564 /* ListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModel.swift; sourceTree = "<group>"; };
+		46849B672996974E00040564 /* Page3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Page3.json; path = "../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page3.json"; sourceTree = "<group>"; };
+		46849B692996975A00040564 /* Page2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Page2.json; path = "../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page2.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +121,17 @@
 		4603AC2C2990C97100F73A7C /* D */ = {
 			isa = PBXGroup;
 			children = (
-				4603AC2D2990C97100F73A7C /* AppDelegate.swift */,
-				4603AC2F2990C97100F73A7C /* SceneDelegate.swift */,
-				4603AC312990C97100F73A7C /* ViewController.swift */,
+				463FF8BF299A756500301480 /* Font */,
+				463FF882299A44C000301480 /* ViewModel */,
+				463FF881299A44B900301480 /* View */,
+				463FF880299A449700301480 /* VCs */,
+				463FF87F299A448800301480 /* Delegates */,
+				463FF87E299A447400301480 /* ServiceManager */,
+				463FF877299A442600301480 /* Model */,
+				463FF873299A441900301480 /* Data */,
+				46849B672996974E00040564 /* Page3.json */,
+				46849B692996975A00040564 /* Page2.json */,
+				46849B612996635400040564 /* Page1.json */,
 				4603AC332990C97100F73A7C /* Main.storyboard */,
 				4603AC362990C97400F73A7C /* Assets.xcassets */,
 				4603AC382990C97400F73A7C /* LaunchScreen.storyboard */,
@@ -125,6 +155,76 @@
 				4603AC502990C97400F73A7C /* DUITestsLaunchTests.swift */,
 			);
 			path = DUITests;
+			sourceTree = "<group>";
+		};
+		463FF873299A441900301480 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				463FF87C299A445D00301480 /* Page3.json */,
+				463FF87D299A445D00301480 /* Page2.json */,
+				463FF87B299A445D00301480 /* Page1.json */,
+				463FF87A299A443400301480 /* Page3.json */,
+				463FF878299A443400301480 /* Page2.json */,
+				463FF879299A443400301480 /* Page1.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		463FF877299A442600301480 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46849B632996644100040564 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		463FF87E299A447400301480 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				46849B5F2996634500040564 /* APICaller.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		463FF87F299A448800301480 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4603AC2D2990C97100F73A7C /* AppDelegate.swift */,
+				4603AC2F2990C97100F73A7C /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		463FF880299A449700301480 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				4603AC312990C97100F73A7C /* HomeVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		463FF881299A44B900301480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4603AC5D29911C5700F73A7C /* MovieCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		463FF882299A44C000301480 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46849B65299681EC00040564 /* ListingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		463FF8BF299A756500301480 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				463FF8C0299A757700301480 /* TitilliumWeb-Light.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +332,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4603AC3A2990C97400F73A7C /* LaunchScreen.storyboard in Resources */,
+				46849B682996974E00040564 /* Page3.json in Resources */,
 				4603AC372990C97400F73A7C /* Assets.xcassets in Resources */,
+				463FF8C1299A758600301480 /* TitilliumWeb-Light.ttf in Resources */,
+				46849B6A2996975A00040564 /* Page2.json in Resources */,
+				46849B622996635400040564 /* Page1.json in Resources */,
 				4603AC352990C97100F73A7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +362,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4603AC322990C97100F73A7C /* ViewController.swift in Sources */,
+				4603AC322990C97100F73A7C /* HomeVC.swift in Sources */,
+				46849B66299681EC00040564 /* ListingViewModel.swift in Sources */,
+				46849B602996634500040564 /* APICaller.swift in Sources */,
+				46849B642996644100040564 /* Movie.swift in Sources */,
 				4603AC2E2990C97100F73A7C /* AppDelegate.swift in Sources */,
+				4603AC5E29911C5700F73A7C /* MovieCell.swift in Sources */,
 				4603AC302990C97100F73A7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +545,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR72P24KTL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = D/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +573,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR72P24KTL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = D/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
