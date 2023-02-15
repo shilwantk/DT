@@ -29,7 +29,7 @@ class ListingViewModel {
             return
         }
         
-        let fileName = "Page" + String(pageNumber)
+        let fileName = "Listing" + String(pageNumber)
         
         APICaller().fetchDataFrom(fileName: fileName) { result in
             switch result {

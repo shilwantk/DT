@@ -17,13 +17,13 @@
 		4603AC4F2990C97400F73A7C /* DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC4E2990C97400F73A7C /* DUITests.swift */; };
 		4603AC512990C97400F73A7C /* DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC502990C97400F73A7C /* DUITestsLaunchTests.swift */; };
 		4603AC5E29911C5700F73A7C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603AC5D29911C5700F73A7C /* MovieCell.swift */; };
-		463FF8C1299A758600301480 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 463FF8C0299A757700301480 /* TitilliumWeb-Light.ttf */; };
+		460BFF15299CACF800050A67 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 460BFF14299CACF800050A67 /* TitilliumWeb-Light.ttf */; };
+		460BFF19299CADE800050A67 /* Listing1.json in Resources */ = {isa = PBXBuildFile; fileRef = 460BFF16299CADE800050A67 /* Listing1.json */; };
+		460BFF1A299CADE800050A67 /* Listing2.json in Resources */ = {isa = PBXBuildFile; fileRef = 460BFF17299CADE800050A67 /* Listing2.json */; };
+		460BFF1B299CADE800050A67 /* Listing3.json in Resources */ = {isa = PBXBuildFile; fileRef = 460BFF18299CADE800050A67 /* Listing3.json */; };
 		46849B602996634500040564 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46849B5F2996634500040564 /* APICaller.swift */; };
-		46849B622996635400040564 /* Page1.json in Resources */ = {isa = PBXBuildFile; fileRef = 46849B612996635400040564 /* Page1.json */; };
 		46849B642996644100040564 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46849B632996644100040564 /* Movie.swift */; };
 		46849B66299681EC00040564 /* ListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46849B65299681EC00040564 /* ListingViewModel.swift */; };
-		46849B682996974E00040564 /* Page3.json in Resources */ = {isa = PBXBuildFile; fileRef = 46849B672996974E00040564 /* Page3.json */; };
-		46849B6A2996975A00040564 /* Page2.json in Resources */ = {isa = PBXBuildFile; fileRef = 46849B692996975A00040564 /* Page2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,19 +58,13 @@
 		4603AC4E2990C97400F73A7C /* DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUITests.swift; sourceTree = "<group>"; };
 		4603AC502990C97400F73A7C /* DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4603AC5D29911C5700F73A7C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		463FF878299A443400301480 /* Page2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Page2.json; path = "../../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page2.json"; sourceTree = "<group>"; };
-		463FF879299A443400301480 /* Page1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Page1.json; path = "../../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page1.json"; sourceTree = "<group>"; };
-		463FF87A299A443400301480 /* Page3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Page3.json; path = "../../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page3.json"; sourceTree = "<group>"; };
-		463FF87B299A445D00301480 /* Page1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Page1.json; sourceTree = "<group>"; };
-		463FF87C299A445D00301480 /* Page3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Page3.json; sourceTree = "<group>"; };
-		463FF87D299A445D00301480 /* Page2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Page2.json; sourceTree = "<group>"; };
-		463FF8C0299A757700301480 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Light.ttf"; path = "../../../../Downloads/Titillium_Web/TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		460BFF14299CACF800050A67 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		460BFF16299CADE800050A67 /* Listing1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listing1.json; sourceTree = "<group>"; };
+		460BFF17299CADE800050A67 /* Listing2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listing2.json; sourceTree = "<group>"; };
+		460BFF18299CADE800050A67 /* Listing3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listing3.json; sourceTree = "<group>"; };
 		46849B5F2996634500040564 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
-		46849B612996635400040564 /* Page1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Page1.json; path = "../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page1.json"; sourceTree = "<group>"; };
 		46849B632996644100040564 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		46849B65299681EC00040564 /* ListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModel.swift; sourceTree = "<group>"; };
-		46849B672996974E00040564 /* Page3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Page3.json; path = "../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page3.json"; sourceTree = "<group>"; };
-		46849B692996975A00040564 /* Page2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Page2.json; path = "../../../Downloads/DIAGNAL PROGRAMMING TEST - iOS CATALOGUE/API/Page2.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +123,6 @@
 				463FF87E299A447400301480 /* ServiceManager */,
 				463FF877299A442600301480 /* Model */,
 				463FF873299A441900301480 /* Data */,
-				46849B672996974E00040564 /* Page3.json */,
-				46849B692996975A00040564 /* Page2.json */,
-				46849B612996635400040564 /* Page1.json */,
 				4603AC332990C97100F73A7C /* Main.storyboard */,
 				4603AC362990C97400F73A7C /* Assets.xcassets */,
 				4603AC382990C97400F73A7C /* LaunchScreen.storyboard */,
@@ -160,12 +151,9 @@
 		463FF873299A441900301480 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				463FF87C299A445D00301480 /* Page3.json */,
-				463FF87D299A445D00301480 /* Page2.json */,
-				463FF87B299A445D00301480 /* Page1.json */,
-				463FF87A299A443400301480 /* Page3.json */,
-				463FF878299A443400301480 /* Page2.json */,
-				463FF879299A443400301480 /* Page1.json */,
+				460BFF16299CADE800050A67 /* Listing1.json */,
+				460BFF17299CADE800050A67 /* Listing2.json */,
+				460BFF18299CADE800050A67 /* Listing3.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -222,7 +210,7 @@
 		463FF8BF299A756500301480 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				463FF8C0299A757700301480 /* TitilliumWeb-Light.ttf */,
+				460BFF14299CACF800050A67 /* TitilliumWeb-Light.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -332,11 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4603AC3A2990C97400F73A7C /* LaunchScreen.storyboard in Resources */,
-				46849B682996974E00040564 /* Page3.json in Resources */,
+				460BFF1B299CADE800050A67 /* Listing3.json in Resources */,
 				4603AC372990C97400F73A7C /* Assets.xcassets in Resources */,
-				463FF8C1299A758600301480 /* TitilliumWeb-Light.ttf in Resources */,
-				46849B6A2996975A00040564 /* Page2.json in Resources */,
-				46849B622996635400040564 /* Page1.json in Resources */,
+				460BFF19299CADE800050A67 /* Listing1.json in Resources */,
+				460BFF1A299CADE800050A67 /* Listing2.json in Resources */,
+				460BFF15299CACF800050A67 /* TitilliumWeb-Light.ttf in Resources */,
 				4603AC352990C97100F73A7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

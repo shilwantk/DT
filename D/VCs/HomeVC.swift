@@ -149,15 +149,20 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if isSearching {
-            return viewModel.filteredMovieArray.count
+            return self.viewModel.filteredMovieArray.count
         } else {
-            return viewModel.movieArray.count
+            return self.viewModel.movieArray.count
         }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let myCell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCell.identifier, for: indexPath) as! MovieCell
-        myCell.setUpSingleChatCellWith(data: viewModel.movieArray[indexPath.row])
+        if isSearching {
+            myCell.setUpSingleChatCellWith(data: viewModel.filteredMovieArray[indexPath.row])
+        } else {
+            myCell.setUpSingleChatCellWith(data: viewModel.movieArray[indexPath.row])
+        }
+        
         return myCell
     }
     
@@ -199,7 +204,8 @@ extension HomeVC: UISearchResultsUpdating, UISearchBarDelegate {
         
         guard let query = searchController.searchBar.text else { return }
         
-        self.viewModel.filteredMovieArray = self.viewModel.movieArray.filter { $0.name.range(of: query, options: [.anchored, .caseInsensitive]) != nil }
+        self.viewModel.filteredMovieArray = self.viewModel.movieArray.filter({$0.name.lowercased().prefix(query.count) == query.lowercased()})
+        
         DispatchQueue.main.async {
             self.myCollectionView.reloadData()
         }
