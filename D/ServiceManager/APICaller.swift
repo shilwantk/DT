@@ -15,14 +15,20 @@ enum NetworkError : Error {
 }
 
 class APICaller {
-
+    
+    /// Function to fetch data from the specified filename.json file
+    /// - Parameters:
+    ///   - fileName: String represetning the json file name to fetch and parse data from
+    ///   - completion: A callback that returns a resuly type of an array of Movie objects and a string denoting the genre of the listing, if successful and a Network Error error if unsuccessful
     func fetchDataFrom(fileName:String, completion: @escaping (Result<(String,[Movie]), NetworkError>) -> Void) {
         
+        /// Check for a valid filename in resources
         guard let path = Bundle.main.path(forResource: fileName, ofType: "json") else {
             completion(.failure(.InvalidFileName))
             return
         }
         
+        /// Check for a valid filepath in resources
         guard let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe) else {
             completion(.failure(.InvalidFilePath))
             return
